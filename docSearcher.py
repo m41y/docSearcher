@@ -158,6 +158,10 @@ def init():
     docs = get_docs(dirs, doctypes)
     print("converting founded documents")
     txts, fails = convert_docs(docs, datadir)
+    if fails:
+        print("Failed to convert these documents: ")
+        for fail in fails:
+            print fail
     print("creating corpus")
     corpus = create_corpus(txts)
     print("vectorizing corpus")
