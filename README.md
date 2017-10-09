@@ -14,4 +14,10 @@ search use:
 python docSearcher.py [-d DOCUMENT | -q QUERY [QUERY ...]] [-n NUMBER]
 
 docSearcher can either search using -q followed by string query or using document -d argument followed with path-to-file, the -n argument is used to set the number of results shown, default is 10.
-                      
+
+<h2>Requirements</h2>
+docSearcher is using python 2.7, textract to convert documents for raw text, PyStemmer to stemm words and sklearn Tfidf vectorizer and nearest neighbor to search fo similarity. Install them by running:
+
+pip install -r requirements.txt
+
+
