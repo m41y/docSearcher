@@ -5,6 +5,7 @@ docSearcher currently works best with documents in english, due to stemmer setti
 <h2>Usage</h2>
 Using docSearcher for the first time use the -i option so script can scan and analyze your documents
 
+
 *python docSearcher.py [-i] [-dirs DIRECTORIES [DIRECTORIES ...]] [-dt  [...]]*
 
 setting -i agrument take script to init mode where it search the [-dirs] directories for documents of [-dt] doctypes. Next the script will convert these documents to .txt format and store them in newly created */data* folder. Txt's will then be *stemmed* and fitted to *term frequency-invert document frequency*. In result all processed data will be saved in *"docSearcherdata.p"* file, and loaded when search commence. This operation, -i, should be done every time you add or remove document files and want the docSearcher to recognize changes.
