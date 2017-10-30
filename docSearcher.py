@@ -19,7 +19,7 @@ def init():
     datadir = fu.create_datadir()
     print("collecting files")
     docs = fu.get_docs(dirs, doctypes)
-    print("converting founded documents")
+    print("converting found documents")
     txts, fails = fu.convert_docs(docs, datadir)
     if fails:
         print("Failed to convert these documents: ")
