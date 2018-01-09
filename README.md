@@ -33,7 +33,7 @@ Example using -d:
 will results in searching for documents most similar to one provided as search query.
 
 <h2>Requirements</h2>
-docSearcher relay on [textract](https://github.com/deanmalmgren/textract) for handling document conversion, [sklearn](http://scikit-learn.org/stable/) for tf-idf vectorization and nearest neighbor search and [PyStemmer](https://github.com/snowballstem/pystemmer) for word stemming
+docSearcher relay on [textract](https://github.com/deanmalmgren/textract) for handling document conversion, [sklearn}(http://scikit-learn.org/stable/) for tf-idf vectorization and nearest neighbor search and [PyStemmer](https://github.com/snowballstem/pystemmer) for word stemming
 
 install required libraries by typing:
 
